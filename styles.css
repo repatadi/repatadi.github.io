@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+h1{
+    font-size: 56px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #1b882d;
+
+}
+
+h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+}
+#nav-content {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.row{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-content ul {
+    display: flex;
+    list-style: none;
+}
+#nav-content li {
+    margin-right: 10px;
+}
+#nav-content a:link,
+#nav-content a:visited {
+    
+    color: #1b882d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+#nav-content a:hover,
+#nav-content a:active {
+    
+    
+    border-bottom: 2px solid #1b882d;
+    
+}
+header {
+    background-image: linear-gradient(rgba(45, 45, 45, 0.50), rgba(45, 45, 45, 0.50)), url(/hero-background.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 80px;
+    background-color: #1b882d;
+    color: white;
+}
+.section{
+    padding: 100px 0;
+
+
+}
+.section p{
+    margin-bottom: 15px;
+}
+.spacing{
+    height: 100px;
+}
+.spacing-s{
+    margin-bottom: 50px;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+.flexrow div:first-child{
+    flex: 70% 1 0;
+}
+.flexrow div:nth-child(2){
+    flex: 30% 0 1;
+
+}
+.flexrow img{
+    width: 100%;
+}
+#avatar{
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid #1b882d;
+}
